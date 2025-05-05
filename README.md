@@ -1,5 +1,5 @@
 
-# Sistema Fuzzy para Controle de Ventilac¸ao em Ambientes Fechados
+# Sistema Fuzzy para Controle de Ventilação em Ambientes Fechados
 
 ## Contato
 <div>
