@@ -1,4 +1,4 @@
-# Sistema Fuzzy para Controle de Ventilação em Ambientes Fechados
+# 🌬️ Sistema Fuzzy para Controle de Ventilação em Ambientes Fechados
 
 Este projeto implementa um sistema de inferência fuzzy baseado no modelo de Mamdani para controle da ventilação em ambientes fechados. As variáveis de entrada são:
 
@@ -8,7 +8,7 @@ Este projeto implementa um sistema de inferência fuzzy baseado no modelo de Mam
 
 A saída é a **intensidade da ventilação**: fraca, moderada ou forte.
 
-## Sobre o Projeto
+## 📌 Sobre o Projeto
 
 Este sistema fuzzy utiliza funções de pertinência trapezoidais para representar conjuntos linguísticos como "baixa", "média" e "alta". A função trapezoidal foi implementada manualmente em Python:
 
@@ -22,14 +22,14 @@ def trapezoidal(x, a, b, c, d):
 
 Essa função é utilizada para todas as variáveis fuzzy de entrada (temperatura, umidade, número de pessoas) e de saída (intensidade da ventilação).
 
-## Funcionalidades
+## ✅ Funcionalidades
 
 - Permite variação dos operadores lógicos AND (min, produto) e OR (max, soma)
 - Visualização gráfica do grau de ativação (α) de cada regra fuzzy
 - Suporte a técnicas de defuzzificação: centroide, bissetriz e média do máximo
 
 
-## Como Executar
+## ▶️ Como Executar
 
 Este projeto foi desenvolvido e testado em um ambiente Jupyter Notebook (`.ipynb`). Para rodar localmente:
 
@@ -42,7 +42,7 @@ E abra o arquivo `.ipynb` diretamente no navegador.
 
 > Alternativamente, você pode usar o [Google Colab](https://colab.research.google.com/) para execução online.
 
-## Autores e Contato
+## 📞 Contato
 
 <div>
  <p align="justify"><strong>Anna Laura Moura Santana</strong></p>
